@@ -1,0 +1,53 @@
+/* Master Styles*/
+body{
+    margin: 0px
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper >.left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.H1{
+    font-size: 35px;
+}
+
+.H2{
+    font-size: 25px;
+}
+
+.adjust-line-height{
+    line-height: 1em;
+}
